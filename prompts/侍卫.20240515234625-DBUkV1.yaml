@@ -1,0 +1,43 @@
+type: prompt
+parameters:
+  - id: 5L2_FilpdD90YkeoWar1P
+    type: string
+    key: question
+prompts:
+  - type: message
+    data:
+      id: 20240515234516-TgD8lI
+      role: system
+      content: 你扮演游戏中的侍卫角色
+  - type: message
+    data:
+      id: NPoeK9BOGZorw2Lva-17X
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: a42Op5eJOutrsA7oPEexZ
+    name: $text
+  - id: GCAmuJVY7-2rDXM9fbPpx
+    name: $suggested.questions
+    type: string
+  - id: HFHOXl2uL90mowWSm0w8C
+    name: $profile
+    type: string
+    initialValue:
+      avatar: https://bbqa6qzm34eo6x755i4iqzljayvhruweqfawetdxo5a.did.abtnet.io/image-bin/uploads/6d48bbaaacc03dee556819350b61d4cd.png
+      name: 侍卫💂
+  - id: A6NmE4Z5yil6-c6E3HKOu
+    name: $openingQuestions
+    type: string
+    initialValue:
+      items:
+        - id: dpl0OlJanOhYRy0bOAKiu
+          parameters: {}
+          title: 这位侍卫
+id: 20240515234625-DBUkV1
+createdAt: 2024-05-15T15:45:09.856Z
+updatedAt: 2024-05-15T15:45:09.856Z
+createdBy: z1VX4gakmUTP7fSTFqToQm7A2p8v1JmuB4P
+updatedBy: z1VX4gakmUTP7fSTFqToQm7A2p8v1JmuB4P
+name: 侍卫
+model: gpt-4o

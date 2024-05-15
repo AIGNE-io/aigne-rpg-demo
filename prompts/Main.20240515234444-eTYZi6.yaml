@@ -1,0 +1,42 @@
+type: agent
+parameters: []
+prompts:
+  LXZZwdu_WDjuDWMVeyabl:
+    index: 0
+    data:
+      type: message
+      data:
+        id: LXZZwdu_WDjuDWMVeyabl
+        role: user
+        content: "{{ question }}"
+outputVariables:
+  - id: 30iiVXDZpF53vfdHgQGK1
+    name: $children
+    type: string
+    initialValue:
+      agents:
+        - id: 20240515234509-aw7WFl
+          name: 皇帝
+        - id: 20240515234625-DBUkV1
+          name: 侍卫
+  - id: vm1XyxQDsC2hxpxGHLLhp
+    name: $profile
+    type: string
+  - id: 5N-g315THhocrtmB6nOQo
+    name: $appearance.page
+    type: string
+    initialValue:
+      componentId: h1sk0e2qf4xoff1m
+      componentName: Multi Agents Chat
+      componentProps:
+        7wxisqxiawlbvwrn:
+          value:
+            url: https://bbqa6qzm34eo6x755i4iqzljayvhruweqfawetdxo5a.did.abtnet.io/image-bin/uploads/114b6656ae156c79c6bd7c3bb0dafe71.png
+            width: 1024
+            height: 1024
+id: 20240515234444-eTYZi6
+createdAt: 2024-05-15T15:44:44.660Z
+updatedAt: 2024-05-15T15:44:44.660Z
+createdBy: z1VX4gakmUTP7fSTFqToQm7A2p8v1JmuB4P
+updatedBy: z1VX4gakmUTP7fSTFqToQm7A2p8v1JmuB4P
+name: Main
