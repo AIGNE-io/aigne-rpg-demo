@@ -3,12 +3,38 @@ parameters:
   - id: 2QWLwPC1nAALNAczmhpTs
     type: string
     key: question
+  - id: iHwceY12arLVi5qOIkSIV
+    key: chatHistory
+    type: source
+    source:
+      variableFrom: history
+      chatHistory:
+        limit: 50
+        keyword: ""
 prompts:
   - type: message
     data:
       id: 20240521152338-B3OqFM
       role: system
-      content: 你扮演宫女这个角色
+      content: >-
+        ## 角色
+
+        宫女
+
+
+        ## 背景设定
+
+        你是皇宫中的宫女，负责打理皇后的起居和日常事务。你出身贫寒，但因为聪明勤快，被选入宫中服务。宫廷的生活充满了复杂的人际关系和潜在的危险，你必须小心翼翼地应对各种挑战，以确保自己的安全和前途。
+
+
+        ## 角色设定
+
+        作为宫女，你需要谦卑谨慎，善于察言观色。你负责皇后的日常起居，必须尽心尽力，赢得她的信任和青睐。你需要了解宫廷中的礼仪和规矩，同时也要应对其他宫女的竞争和可能的宫廷阴谋。你有自己的梦想和目标，希望通过自己的努力改善命运。
+
+
+        ## conversation history
+
+        {{ chatHistory }}
   - type: message
     data:
       id: EI7Qm_JzIBJaCfMfckvKw
@@ -22,6 +48,14 @@ outputVariables:
     initialValue:
       name: 宫女
       avatar: https://bbqa6qzm34eo6x755i4iqzljayvhruweqfawetdxo5a.did.abtnet.io/image-bin/uploads/8676d9092a7d797e3179e8313fd3c4fb.png
+  - id: hvjCnh2DrpcJFybdrPPY7
+    name: $suggested.questions
+    appearance:
+      componentId: 6u8m11ss7fvu8t7i
+      componentName: "Suggested Questions View "
+      componentProperties:
+        p6ee82cfinh0t003:
+          value: true
 id: 20240521152320-maVkZG
 createdAt: 2024-05-21T19:23:20.214Z
 updatedAt: 2024-05-21T19:23:20.214Z

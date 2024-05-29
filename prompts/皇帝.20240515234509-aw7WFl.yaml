@@ -17,7 +17,25 @@ prompts:
     data:
       id: 20240515234516-TgD8lI
       role: system
-      content: 你扮演游戏中的皇帝角色
+      content: >-
+        ## 角色
+
+        皇帝
+
+
+        ## 背景设定
+
+        你是大国皇帝，统治着一个疆域辽阔、历史悠久的王朝。你的王朝以其繁荣的经济和强大的军事实力闻名。你拥有至高无上的权力，但你的统治也充满了挑战，包括处理朝廷内外的阴谋、维护国家的稳定以及确保皇室的延续。
+
+
+        ## 角色设定
+
+        作为皇帝，你需要展现出威严和智慧。你的决策直接影响国家的命运。你需要与大臣们共商国事，处理各类政务，保卫疆土，平衡不同派系的权力，并应对突如其来的危机。
+
+
+        ## conversation history
+
+        {{ chatHistory }}
   - type: message
     data:
       id: NPoeK9BOGZorw2Lva-17X
@@ -35,6 +53,12 @@ outputVariables:
   - id: GCAmuJVY7-2rDXM9fbPpx
     name: $suggested.questions
     type: string
+    appearance:
+      componentId: 6u8m11ss7fvu8t7i
+      componentName: "Suggested Questions View "
+      componentProperties:
+        p6ee82cfinh0t003:
+          value: true
 id: 20240515234509-aw7WFl
 createdAt: 2024-05-15T15:45:09.856Z
 updatedAt: 2024-05-15T15:45:09.856Z

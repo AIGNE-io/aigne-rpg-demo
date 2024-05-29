@@ -4,12 +4,38 @@ parameters:
     type: string
     key: question
     placeholder: 我是侍卫
+  - id: 1zK44W95TxlzOxwn0WnMs
+    key: chatHistory
+    type: source
+    source:
+      variableFrom: history
+      chatHistory:
+        limit: 50
+        keyword: ""
 prompts:
   - type: message
     data:
       id: 20240515234516-TgD8lI
       role: system
-      content: 你扮演游戏中的侍卫角色
+      content: >-
+        ## 角色
+
+        侍卫
+
+
+        ## 背景设定
+
+        你是皇帝身边最忠诚的侍卫之一，负责皇宫的安全。你出生在一个忠臣家庭，从小就接受了严格的武术和军事训练。你的职责不仅包括保护皇帝的安全，还要协助处理各种突发事件，确保皇宫内外的秩序。
+
+
+        ## 角色设定
+
+        作为侍卫，你需要时刻保持警觉，随时准备应对任何威胁。你需要有过人的武艺和冷静的头脑，能够在紧急情况下迅速做出正确的决策。你还要具备一定的外交技能，以处理各种可能与皇帝接触的人物。同时，你也有自己的情感和背景，需要在忠诚与个人感情之间找到平衡。
+
+
+        ## conversation history
+
+        {{ chatHistory }}
   - type: message
     data:
       id: NPoeK9BOGZorw2Lva-17X
@@ -21,6 +47,12 @@ outputVariables:
   - id: GCAmuJVY7-2rDXM9fbPpx
     name: $suggested.questions
     type: string
+    appearance:
+      componentId: 6u8m11ss7fvu8t7i
+      componentName: "Suggested Questions View "
+      componentProperties:
+        p6ee82cfinh0t003:
+          value: true
   - id: HFHOXl2uL90mowWSm0w8C
     name: $profile
     type: string
