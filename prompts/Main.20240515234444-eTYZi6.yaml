@@ -19,6 +19,8 @@ outputVariables:
           name: 皇帝
         - id: 20240515234625-DBUkV1
           name: 侍卫
+        - id: 20240521152320-maVkZG
+          name: 宫女
   - id: vm1XyxQDsC2hxpxGHLLhp
     name: $profile
     type: string
@@ -31,9 +33,40 @@ outputVariables:
       componentProps:
         7wxisqxiawlbvwrn:
           value:
-            url: https://bbqa6qzm34eo6x755i4iqzljayvhruweqfawetdxo5a.did.abtnet.io/image-bin/uploads/114b6656ae156c79c6bd7c3bb0dafe71.png
+            url: ""
             width: 1024
             height: 1024
+    appearance:
+      componentId: wvqnnr1wl624vho5
+      componentName: Simple Chat Layout
+      componentProperties:
+        3pig8me8xovm7ur9:
+          value:
+            url: https://bbqa6qzm34eo6x755i4iqzljayvhruweqfawetdxo5a.did.abtnet.io/image-bin/uploads/88a1984ba03618a9c4adc2847073d45d.png
+            width: 1455
+            height: 815
+  - id: WvHZhJ6qrjA4Lc0LSJrrM
+    name: $openingMessage
+    initialValue:
+      message: 欢迎来到 AIGNE，我们现在已经支持多 Agent，可以点击下方头像切换不同 Agent 进行交互！
+  - id: xHlMA0ZNpCrWBjYXMuUR0
+    name: $appearance.input
+    initialValue:
+      componentId: 1wwtemqcdio6nqf0
+      componentName: Auto Form
+      componentProps:
+        wd7bj76kom8y46cj:
+          value: true
+        a1pldnt6iwmfghqc:
+          value: Send
+  - id: KOZvogBasUCuxO7g9MnQ7
+    name: $appearance.output
+    initialValue:
+      componentId: cjjrsoiyh0ka2dq6
+      componentName: Chat Output
+    appearance:
+      componentId: cjjrsoiyh0ka2dq6
+      componentName: Chat Output
 id: 20240515234444-eTYZi6
 createdAt: 2024-05-15T15:44:44.660Z
 updatedAt: 2024-05-15T15:44:44.660Z

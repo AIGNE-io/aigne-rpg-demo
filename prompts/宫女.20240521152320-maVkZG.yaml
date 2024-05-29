@@ -1,0 +1,30 @@
+type: prompt
+parameters:
+  - id: 2QWLwPC1nAALNAczmhpTs
+    type: string
+    key: question
+prompts:
+  - type: message
+    data:
+      id: 20240521152338-B3OqFM
+      role: system
+      content: 你扮演宫女这个角色
+  - type: message
+    data:
+      id: EI7Qm_JzIBJaCfMfckvKw
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: MlF1aSWCN5lzZlNpfgnqY
+    name: $text
+  - id: E8JEIsuTCCBRp4iLxSeiW
+    name: $profile
+    initialValue:
+      name: 宫女
+      avatar: https://bbqa6qzm34eo6x755i4iqzljayvhruweqfawetdxo5a.did.abtnet.io/image-bin/uploads/8676d9092a7d797e3179e8313fd3c4fb.png
+id: 20240521152320-maVkZG
+createdAt: 2024-05-21T19:23:20.214Z
+updatedAt: 2024-05-21T19:23:20.214Z
+createdBy: z1nzWVZcEJ1etW7BjguZ2jkvLne8ZJvThYp
+updatedBy: z1nzWVZcEJ1etW7BjguZ2jkvLne8ZJvThYp
+name: 宫女
