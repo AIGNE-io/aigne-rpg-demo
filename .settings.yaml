@@ -1,11 +1,11 @@
 _id: "445974813257760768"
-name: Test Multi-Agents
+name: aigne-rpg-demo
 description: null
 model: gpt-4o
 createdAt: 2024-05-15T15:44:41.294Z
-updatedAt: 2024-05-29T08:08:11.746Z
-createdBy: z1VX4gakmUTP7fSTFqToQm7A2p8v1JmuB4P
-updatedBy: z1VX4gakmUTP7fSTFqToQm7A2p8v1JmuB4P
+updatedAt: 2024-05-29T08:08:57.396Z
+createdBy: z1oHa79x3H6vxv9hfW8bHczPmwHKfAaRRmS
+updatedBy: z1oHa79x3H6vxv9hfW8bHczPmwHKfAaRRmS
 pinnedAt: null
 gitType: simple
 temperature: 1
