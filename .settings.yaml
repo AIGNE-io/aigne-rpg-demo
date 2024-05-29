@@ -3,7 +3,7 @@ name: Test Multi-Agents
 description: null
 model: gpt-4o
 createdAt: 2024-05-15T15:44:41.294Z
-updatedAt: 2024-05-15T15:56:53.475Z
+updatedAt: 2024-05-29T08:08:11.746Z
 createdBy: z1VX4gakmUTP7fSTFqToQm7A2p8v1JmuB4P
 updatedBy: z1VX4gakmUTP7fSTFqToQm7A2p8v1JmuB4P
 pinnedAt: null
@@ -13,4 +13,4 @@ topP: 1
 presencePenalty: null
 frequencyPenalty: null
 maxTokens: null
-gitAutoSync: null
+gitAutoSync: true
