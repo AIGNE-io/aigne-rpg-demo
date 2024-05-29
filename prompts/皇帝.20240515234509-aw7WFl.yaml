@@ -3,7 +3,8 @@ parameters:
   - id: 5L2_FilpdD90YkeoWar1P
     type: string
     key: question
-    placeholder: 我是皇帝
+    placeholder: Talk to 皇帝
+    required: true
   - id: COjfgtaRtBvCDV25IVNev
     key: chatHistory
     type: source

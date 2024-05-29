@@ -3,6 +3,8 @@ parameters:
   - id: 2QWLwPC1nAALNAczmhpTs
     type: string
     key: question
+    placeholder: Talk to 宫女
+    required: true
   - id: iHwceY12arLVi5qOIkSIV
     key: chatHistory
     type: source

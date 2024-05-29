@@ -3,7 +3,8 @@ parameters:
   - id: 5L2_FilpdD90YkeoWar1P
     type: string
     key: question
-    placeholder: 我是侍卫
+    placeholder: Talk to 侍卫
+    required: true
   - id: 1zK44W95TxlzOxwn0WnMs
     key: chatHistory
     type: source
