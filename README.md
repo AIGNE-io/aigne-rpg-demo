@@ -1,6 +1,6 @@
-# RPG
+# Multi-Characters RPG
 
-
+A game with multiple virtual characters.
 
 ## Install And Run
 

@@ -15,12 +15,12 @@ outputVariables:
     type: string
     initialValue:
       agents:
-        - id: 20240515234509-aw7WFl
-          name: 皇帝
         - id: 20240515234625-DBUkV1
-          name: 侍卫
+          name: Royal Guard
         - id: 20240521152320-maVkZG
-          name: 宫女
+          name: Maid
+        - id: 20240515234509-aw7WFl
+          name: King
   - id: vm1XyxQDsC2hxpxGHLLhp
     name: $profile
     type: string
@@ -48,7 +48,7 @@ outputVariables:
   - id: WvHZhJ6qrjA4Lc0LSJrrM
     name: $openingMessage
     initialValue:
-      message: 欢迎来到 AIGNE，我们现在已经支持多 Agent，可以点击下方头像切换不同 Agent 进行交互！
+      message: "You can click on each avatar to talk to them. "
   - id: xHlMA0ZNpCrWBjYXMuUR0
     name: $appearance.input
     initialValue:
@@ -72,4 +72,4 @@ createdAt: 2024-05-15T15:44:44.660Z
 updatedAt: 2024-05-15T15:44:44.660Z
 createdBy: z1VX4gakmUTP7fSTFqToQm7A2p8v1JmuB4P
 updatedBy: z1VX4gakmUTP7fSTFqToQm7A2p8v1JmuB4P
-name: Main
+name: Game master
